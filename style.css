@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.box1{
+    height: 610px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    background-color: rgb(64 78 237);
+}
+.imagine{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 170px;
+}
+.buttons{
+    display: flex;
+}
+#window{
+    text-decoration: none;
+    background-color: white;
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 16px 32px;
+    margin-top: 30px;
+    margin-right: 35px;
+    color: #23272a;
+    font-weight: bold;
+}
+h1{
+    font-size: 56px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    margin-bottom: 40px;
+    color: white;
+}
+.logo{
+    margin-top: 18px;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a{
+    font-family: 'Poppins', sans-serif;
+}
+.home-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 70px;
+    margin-right: 280px;
+    width: 200px;
+    margin-top: 30px;
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1137px;
+    background-color: rgb(246 246 246);
+}
+.blackh1{
+    color: #23272a;
+    margin-bottom: 3px;
+    font-size: 38px;
+}
+.homelinkss{
+    
+    margin-left: 30px;
+
+
+}
+.blackp{
+    color: #23272a;
+    font-weight: lighter;
+}
+.con1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.openbutton{
+    margin-top: 20px;
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 7px 16px;
+    color: #23272a;
+    background-color: white;
+    position: relative;
+    right: 90px;
+    
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 610px;
+    width: 100%;
+
+}
+.sleepshoe{
+    height: 350px;
+    width: 1100px;
+    position: relative;
+    top: -89px;
+    left: -300px;
+}
+.homepic{
+    height: 350px;
+    width: 1100px;
+    position: relative;
+    left: 1050px;
+    bottom: 441px;
+}
+.cloud{
+    position: relative;
+    top: 50px;
+}
+.box1{
+    
+    background-image: url(cloud.svg);
+    background-repeat: no-repeat;
+    background-size: 1780px;
+    
+    background-position-y: 174px;
+}
+p{
+    color: white;
+    font-size: 17px;
+}
